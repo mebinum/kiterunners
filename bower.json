@@ -1,0 +1,10 @@
+{
+  "name": "kiterunners",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mebinum/kiterunners",
+  "authors": [
+    "kiterunners"
+  ],
+  "license": "MIT",
+  "private": true
+}

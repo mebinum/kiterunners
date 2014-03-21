@@ -1,5 +1,5 @@
-@import '../bower_components/sass-bootstrap/dist/css/bootstrap.css';
-@import '../bower_components/sass-bootstrap/dist/css/bootstrap-theme.css';
+@import '../bower_components/sass-bootstrap/css/bootstrap.css';
+@import '../bower_components/sass-bootstrap/css/bootstrap-theme.css';
 
 .browsehappy {
     margin: 0.2em 0;
