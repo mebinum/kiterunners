@@ -1,5 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Dosis:300,400';
 @import '../bower_components/sass-bootstrap/css/bootstrap.css';
 @import '../bower_components/sass-bootstrap/css/bootstrap-theme.css';
+
+
+/*Global*/
+html, body {
+	overflow-x:hidden;
+	overflow-x:hidden;
+}
+.container {
+	position:relative;
+}
+
+/* Home Section */
+#home {
+    width: 100%;
+    height: 100%;
+}
+
+#home.full-screen,
+#home.half-screen {
+	background:#F0F0F0 url('../images/loading.gif') no-repeat center;
+}
+#slider .slides-pagination {
+	bottom:100px;
+}
+#home.half-screen .slides-pagination {
+	bottom:66px;
+}
+
+#home.video {
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#video-volume {
+	bottom: 85px;
+	left: 50%;
+	margin: 0 0 0 -15px;
+	position: absolute;
+	z-index: 10;
+	width: 30px;
+	height: 30px;
+	line-height: 26px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+#caption {
+    top: 20%;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+.image-caption .inner {
+    margin: 0 auto;
+}
+.image-caption .redkite-logo{
+    margin: 0 auto;
+}
+
+.navbrand {
+    padding: 0;
+    line-height: initial;
+}
+
+.navbar {
+    
+}
+
+/*-----/*/
 
 .browsehappy {
     margin: 0.2em 0;
@@ -10,7 +85,6 @@
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -66,9 +140,6 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
-    }
 
     /* Remove the padding we set earlier */
     .header,

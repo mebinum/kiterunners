@@ -1,0 +1,14 @@
+{
+  "name": "jquery.videoBG",
+  "homepage": "https://github.com/sydlawrence/jquery.videoBG",
+  "_release": "5b67eb55c5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5b67eb55c58020e9af1738cf83f0da37bc58bb1c"
+  },
+  "_source": "git://github.com/sydlawrence/jquery.videoBG.git",
+  "_target": "*",
+  "_originalSource": "jquery.videoBG",
+  "_direct": true
+}
